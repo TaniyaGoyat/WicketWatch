@@ -1,0 +1,52 @@
+/* TeamStanding.css */
+
+/* Styling the table container */
+.table-container {
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Optional: rounded corners for the container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for a nice effect */
+    padding-left: 20px; /* Space only on the left */
+    padding-right: 20px; /* Space only on the right */
+  }
+  
+  /* Table styling */
+  .points-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem; /* Increased font size */
+  }
+  
+  /* Table header styling */
+  .points-table th {
+    background-color: #F54A00; /* Dodger Blue */
+    color: white;
+    padding: 16px 20px; /* Increased padding for better spacing */
+    text-align: center; /* Center-align the text */
+    font-weight: bold; /* Bold font for the header */
+    vertical-align: middle; /* Ensure vertical centering */
+  }
+  
+  /* Table cell styling */
+  .points-table td {
+    padding: 16px 20px; /* Increased padding for better spacing */
+    text-align: center; /* Center-align the text */
+    color: #555; /* Slightly darker text color */
+    vertical-align: middle; /* Ensure vertical centering */
+  }
+  
+  /* Alternating row colors */
+  .points-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+  }
+  
+  .points-table tr:hover {
+    background-color: #f1f1f1; /* Light hover effect */
+  }
+  
+  /* Optional: Image styling for flags */
+  .points-table img {
+    max-width: 30px;
+    height: auto;
+    border-radius: 50%; /* Optional: Rounded flag images */
+  }
+  
