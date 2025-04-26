@@ -7,9 +7,9 @@ function Footer() {
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* IPL Score Tracker */}
         <div>
-          <h2 className="text-xl font-bold mb-4">IPL Score Tracker</h2>
+          <h2 className="text-xl font-bold mb-4">WicketWatch</h2>
           <p className="text-sm text-gray-400">
-            The ultimate destination for IPL cricket fans to stay updated with
+            The ultimate destination for cricket fans to stay updated with
             live scores, team standings, and match schedules.
           </p>
         </div>
@@ -18,11 +18,11 @@ function Footer() {
         <div>
           <h2 className="text-xl font-bold mb-4">Quick Links</h2>
           <ul className="space-y-2 text-sm text-gray-300">
-            <li><a href="#" className="hover:text-white">Live Scores</a></li>
-            <li><a href="#" className="hover:text-white">Schedule</a></li>
-            <li><a href="#" className="hover:text-white">Teams</a></li>
-            <li><a href="#" className="hover:text-white">Stats</a></li>
-            <li><a href="#" className="hover:text-white">News</a></li>
+            <li><a href="/" className="hover:text-white">Live Scores</a></li>
+            <li><a href="/schedule" className="hover:text-white">Schedule</a></li>
+            <li><a href="/squad" className="hover:text-white">Squad</a></li>
+            <li><a href="/top" className="hover:text-white">Top Players</a></li>
+            <li><a href="/venues" className="hover:text-white">Venues</a></li>
           </ul>
         </div>
 

@@ -17,7 +17,7 @@ function Header() {
   };
 
   return (
-    <div className='sticky top-0 z-50 bg-white shadow-md'>
+    <div className='sticky top-0 z-50 bg-[#101828] shadow-md'>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-[60px]">
           {/* Logo */}
@@ -35,7 +35,7 @@ function Header() {
               <Link
                 to={link.path}
                 key={index}
-                className="text-sm text-black font-medium transition-colors hover:text-orange-600"
+                className="text-sm text-[#E3B23C] font-medium transition-colors hover:text-orange-600"
               >
                 {link.name}
               </Link>
@@ -58,7 +58,7 @@ function Header() {
               <Link
                 to={link.path}
                 key={index}
-                className="text-sm text-black font-bold transition-color px-2 py-1 hover:bg-orange-100 rounded"
+                className="text-lg text-black font-bold transition-color px-2 py-1 hover:bg-orange-100 rounded"
                 onClick={() => setIsOpen(false)} // closes menu on click
               >
                 {link.name}
