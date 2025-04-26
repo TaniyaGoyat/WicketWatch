@@ -44,7 +44,7 @@ function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className='md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100'
+            className='md:hidden p-2 rounded-md text-[#E3B23C] hover:bg-gray-100'
             onClick={toggleMenu}
           >
             ☰
@@ -58,7 +58,7 @@ function Header() {
               <Link
                 to={link.path}
                 key={index}
-                className="text-lg text-[#101828] font-bold transition-color px-2 py-1 hover:bg-orange-100 rounded"
+                className="text-lg text-[#E3B23C] font-bold transition-color px-2 py-1 hover:bg-orange-100 rounded"
                 onClick={() => setIsOpen(false)} // closes menu on click
               >
                 {link.name}
