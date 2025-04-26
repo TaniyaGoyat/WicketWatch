@@ -58,7 +58,7 @@ function Header() {
               <Link
                 to={link.path}
                 key={index}
-                className="text-lg text-black font-bold transition-color px-2 py-1 hover:bg-orange-100 rounded"
+                className="text-lg text-[#101828] font-bold transition-color px-2 py-1 hover:bg-orange-100 rounded"
                 onClick={() => setIsOpen(false)} // closes menu on click
               >
                 {link.name}
