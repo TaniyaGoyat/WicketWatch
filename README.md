@@ -1,12 +1,48 @@
-# React + Vite
+# 🏏 WicketWatch – IPL 2025 Live Cricket Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**WicketWatch** is a real-time cricket web app that delivers live series data straight to your screen using the Cricket Live Line API. Tailored for the excitement of **IPL 2025**, it provides comprehensive insights into matches, team squads, points tables, and more—all in one place.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo & Repo
 
-## Expanding the ESLint configuration
+- 🌐 [Live Site](https://wicketwatch-1.onrender.com)
+- 💻 [GitHub Repository](https://lnkd.in/gEpXQ2eu)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- 📅 View full IPL 2025 match schedule and upcoming games
+- 🏆 Track the live **Points Table**
+- 🧑‍🤝‍🧑 Explore detailed **Team Squads** for each franchise
+- 📍 Access venue and stadium details
+- 🔝 Discover **Top Players** of the series
+- 📲 Responsive UI optimized for mobile and desktop
+- 🔄 Seamless real-time data updates via API
+
+---
+
+## 🛠 Tech Stack
+
+- **React.js** – Frontend framework
+- **Axios** – API integration and data fetching
+- **Tailwind CSS** – Styling and responsive UI
+- **Cricket Live Line API** – Real-time IPL data
+- **Render.com** – Hosting & deployment
+
+---
+
+## 📂 Folder Structure
+
+/src
+├── components/ # Modular UI components
+├── pages/ # Main pages like Home, PointsTable, Schedule
+├── services/ # Axios API handling
+├── assets/ # Team logos and visuals
+└── App.js # Entry point
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/wicketwatch.git
+cd wicketwatch
