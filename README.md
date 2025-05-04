@@ -1,4 +1,4 @@
-# 🏏 WicketWatch – IPL 2025 Live Cricket Dashboard
+# 🏏 WicketWatch – Live Cricket Series Dashboard
 
 **WicketWatch** is a real-time cricket web app that delivers live series data straight to your screen using the Cricket Live Line API. Tailored for the excitement of **IPL 2025**, it provides comprehensive insights into matches, team squads, points tables, and more—all in one place.
 
